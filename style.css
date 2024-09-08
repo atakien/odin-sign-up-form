@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+}
+
+.left{
+    flex: 2;
+    position: relative;
+}
+
+.left > p{
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    left: 30%;
+}
+
+.sunflower{
+    width: 100%;
+}
+
+.odin-logo{
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 200px;
+}
+
+.odin-logo img{
+width: 20%;
+opacity: 1;
+}
+
+.odin-logo p{
+    color: white;
+    font-size: 4rem;
+}
