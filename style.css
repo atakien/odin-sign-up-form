@@ -8,7 +8,6 @@
 }
 
 .left{
-    flex: 2;
     position: relative;
 }
 
@@ -20,7 +19,8 @@
 }
 
 .sunflower{
-    width: 100%;
+    width: 600px;
+    height: 100vh;
 }
 
 .odin-logo{
@@ -34,10 +34,56 @@
 
 .odin-logo img{
 width: 20%;
-opacity: 1;
 }
 
 .odin-logo p{
     color: white;
     font-size: 4rem;
+}
+
+.right{
+    width: 100%;
+}
+
+.top{
+    height: 45vh;
+    background-color: rgb(251, 251, 244);
+}
+
+.middle{
+ height: 35vh;
+ background-color: white;
+ position: relative;
+z-index: 2;
+box-shadow: -2px -8px 19px -22px rgba(0,0,0,0.45),
+0px 25px 20px -20px rgba(0,0,0,0.45);
+}
+
+.middle p{
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 10px 50px;
+}
+
+fieldset{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 700px;
+    margin-left: 50px;
+    border: none;
+}
+
+label,input{
+    display:flex;
+    flex-direction:column;
+  }
+
+input{
+    width: 250px;
+}
+
+.bottom{
+    height: 20vh;
+    background-color: rgb(251, 251, 244);
 }
