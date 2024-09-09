@@ -12,11 +12,16 @@
     position: relative;
 }
 
+.left a{
+    color: white;
+}
+
 .left > p{
     color: white;
+    font-size: 0.8rem;
     position: absolute;
-    bottom: 5%;
-    left: 30%;
+    bottom: 2%;
+    left: 35%;
 }
 
 .sunflower{
@@ -31,6 +36,7 @@
     align-items: center;
     position: absolute;
     top: 200px;
+    gap: 15px;
 }
 
 .odin-logo img{
@@ -39,7 +45,8 @@ width: 20%;
 
 .odin-logo p{
     color: white;
-    font-size: 4rem;
+    font-size: 6rem;
+    font-family: Handjet, sans-serif;
 }
 
 .right{
@@ -47,16 +54,27 @@ width: 20%;
 }
 
 .top{
-    height: 40vh;
+    height: 35vh;
     background-color: rgb(251, 251, 244);
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(62, 62, 62);
 }
 
 span{
     font-style: italic;
 }
 
+.top-first{
+padding: 60px 0 40px 50px;
+}
+
+.top-second{
+padding-left:50px ;
+}
+
 .middle{
- height: 40vh;
+ height: 45vh;
  background-color: white;
  position: relative;
 z-index: 2;
@@ -94,11 +112,19 @@ input{
     border: 1px solid rgba(128, 128, 128, 0.2);
 }
 
+input[type="password"]:invalid{
+    border: 1px solid red;
+}
+
+input:focus{
+    border: 1px solid blue;
+}
+
 label{
     font-size: 0.9em;
     font-weight: 800;
     color: rgb(109, 108, 108);
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 .bottom{
@@ -115,4 +141,18 @@ label{
     font-size: 1rem;
     font-weight: 700;
     cursor: pointer;
+    margin: 24px 0 16px 50px;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.2);
+}
+
+.bottom p{
+    font-size: 1rem;
+    font-weight: 700;
+    margin-left: 50px;
+    color: rgb(60, 60, 60);
+}
+
+.login{
+    color: #596D48;
+    text-decoration: none;
 }
